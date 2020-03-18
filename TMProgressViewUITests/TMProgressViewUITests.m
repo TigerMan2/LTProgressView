@@ -1,6 +1,6 @@
 //
-//  LTProgressViewUITests.m
-//  LTProgressViewUITests
+//  TMProgressViewUITests.m
+//  TMProgressViewUITests
 //
 //  Created by Luther on 2019/8/26.
 //  Copyright © 2019 mrstock. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface LTProgressViewUITests : XCTestCase
+@interface TMProgressViewUITests : XCTestCase
 
 @end
 
-@implementation LTProgressViewUITests
+@implementation TMProgressViewUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,16 +1,16 @@
 //
 //  ViewController.m
-//  LTProgressView
+//  TMProgressView
 //
 //  Created by Luther on 2019/8/26.
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "ProgressView/LTProgressView.h"
+#import "ProgressView/TMProgressView.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) LTProgressView *progressView;
+@property (nonatomic, strong) TMProgressView *progressView;
 @end
 
 @implementation ViewController
@@ -29,11 +29,11 @@
 }
 
 #pragma mark - getter
-- (LTProgressView *)progressView {
+- (TMProgressView *)progressView {
     if (!_progressView) {
-        _progressView = [[LTProgressView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+        _progressView = [[TMProgressView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
         _progressView.center = self.view.center;
-        _progressView.progressType = LTProgressViewTypePie;
+        _progressView.progressType = TMProgressViewTypePie;
     }
     return _progressView;
 }

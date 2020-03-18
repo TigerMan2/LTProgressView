@@ -1,39 +1,39 @@
 //
-//  LTProgressView.m
-//  LTProgressView
+//  TMProgressView.m
+//  TMProgressView
 //
 //  Created by Luther on 2019/8/26.
 //  Copyright © 2019 mrstock. All rights reserved.
 //
 
-#import "LTProgressView.h"
+#import "TMProgressView.h"
 
-#define LTProgressViewBackgroundColor   [UIColor clearColor]
-#define LTProgressViewStoreColor        [UIColor whiteColor]
-#define LTProgressViewItemMargin        10
-#define LTProgressViewLoopLineWidth     8
+#define TMProgressViewBackgroundColor   [UIColor clearColor]
+#define TMProgressViewStoreColor        [UIColor whiteColor]
+#define TMProgressViewItemMargin        10
+#define TMProgressViewLoopLineWidth     8
 
-@interface LTProgressView ()
+@interface TMProgressView ()
 @property (nonatomic, strong) CAShapeLayer *sectorLayer;
 @property (nonatomic, strong) CAShapeLayer *loadingLayer;
 @property (nonatomic, strong) CAShapeLayer *sharpLayer;
 @end
 
-@implementation LTProgressView
+@implementation TMProgressView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = LTProgressViewBackgroundColor;
-        self.progressType = LTProgressViewTypePie;
+        self.backgroundColor = TMProgressViewBackgroundColor;
+        self.progressType = TMProgressViewTypePie;
     }
     return self;
 }
 
 - (void)drawRect:(CGRect)rect {
     
-    if (self.progressType == LTProgressViewTypePie) {
+    if (self.progressType == TMProgressViewTypePie) {
         [self setupSectorLayer];
         [self setupLoadingLayer];
         [self setupSharpLayer:rect];
@@ -97,7 +97,7 @@
     progress = MAX(0.0f, progress);
     progress = MIN(1.0f, progress);
     
-    if (self.progressType == LTProgressViewTypeLoop) {
+    if (self.progressType == TMProgressViewTypeLoop) {
         if (progress != _progress) {
             _progress = progress;
         }

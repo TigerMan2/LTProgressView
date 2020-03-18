@@ -13,9 +13,9 @@
 		AAF716102313684C00D92551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF7160F2313684C00D92551 /* Assets.xcassets */; };
 		AAF716132313684C00D92551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF716112313684C00D92551 /* LaunchScreen.storyboard */; };
 		AAF716162313684C00D92551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF716152313684C00D92551 /* main.m */; };
-		AAF716202313684C00D92551 /* LTProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7161F2313684C00D92551 /* LTProgressViewTests.m */; };
-		AAF7162B2313684C00D92551 /* LTProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7162A2313684C00D92551 /* LTProgressViewUITests.m */; };
-		AAF7163B2313698F00D92551 /* LTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7163A2313698F00D92551 /* LTProgressView.m */; };
+		AAF716202313684C00D92551 /* TMProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7161F2313684C00D92551 /* TMProgressViewTests.m */; };
+		AAF7162B2313684C00D92551 /* TMProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7162A2313684C00D92551 /* TMProgressViewUITests.m */; };
+		AAF7163B2313698F00D92551 /* TMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF7163A2313698F00D92551 /* TMProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAF716032313684B00D92551 /* LTProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF716032313684B00D92551 /* TMProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF716062313684B00D92551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAF716072313684B00D92551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AAF716092313684B00D92551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -46,14 +46,14 @@
 		AAF716122313684C00D92551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF716142313684C00D92551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAF716152313684C00D92551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAF7161B2313684C00D92551 /* LTProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF7161F2313684C00D92551 /* LTProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTProgressViewTests.m; sourceTree = "<group>"; };
+		AAF7161B2313684C00D92551 /* TMProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF7161F2313684C00D92551 /* TMProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMProgressViewTests.m; sourceTree = "<group>"; };
 		AAF716212313684C00D92551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAF716262313684C00D92551 /* LTProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF7162A2313684C00D92551 /* LTProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTProgressViewUITests.m; sourceTree = "<group>"; };
+		AAF716262313684C00D92551 /* TMProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF7162A2313684C00D92551 /* TMProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMProgressViewUITests.m; sourceTree = "<group>"; };
 		AAF7162C2313684C00D92551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAF716392313698F00D92551 /* LTProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTProgressView.h; sourceTree = "<group>"; };
-		AAF7163A2313698F00D92551 /* LTProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTProgressView.m; sourceTree = "<group>"; };
+		AAF716392313698F00D92551 /* TMProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMProgressView.h; sourceTree = "<group>"; };
+		AAF7163A2313698F00D92551 /* TMProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 		AAF715FA2313684B00D92551 = {
 			isa = PBXGroup;
 			children = (
-				AAF716052313684B00D92551 /* LTProgressView */,
-				AAF7161E2313684C00D92551 /* LTProgressViewTests */,
-				AAF716292313684C00D92551 /* LTProgressViewUITests */,
+				AAF716052313684B00D92551 /* TMProgressView */,
+				AAF7161E2313684C00D92551 /* TMProgressViewTests */,
+				AAF716292313684C00D92551 /* TMProgressViewUITests */,
 				AAF716042313684B00D92551 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +94,14 @@
 		AAF716042313684B00D92551 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAF716032313684B00D92551 /* LTProgressView.app */,
-				AAF7161B2313684C00D92551 /* LTProgressViewTests.xctest */,
-				AAF716262313684C00D92551 /* LTProgressViewUITests.xctest */,
+				AAF716032313684B00D92551 /* TMProgressView.app */,
+				AAF7161B2313684C00D92551 /* TMProgressViewTests.xctest */,
+				AAF716262313684C00D92551 /* TMProgressViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAF716052313684B00D92551 /* LTProgressView */ = {
+		AAF716052313684B00D92551 /* TMProgressView */ = {
 			isa = PBXGroup;
 			children = (
 				AAF716382313697100D92551 /* ProgressView */,
@@ -115,32 +115,32 @@
 				AAF716142313684C00D92551 /* Info.plist */,
 				AAF716152313684C00D92551 /* main.m */,
 			);
-			path = LTProgressView;
+			path = TMProgressView;
 			sourceTree = "<group>";
 		};
-		AAF7161E2313684C00D92551 /* LTProgressViewTests */ = {
+		AAF7161E2313684C00D92551 /* TMProgressViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAF7161F2313684C00D92551 /* LTProgressViewTests.m */,
+				AAF7161F2313684C00D92551 /* TMProgressViewTests.m */,
 				AAF716212313684C00D92551 /* Info.plist */,
 			);
-			path = LTProgressViewTests;
+			path = TMProgressViewTests;
 			sourceTree = "<group>";
 		};
-		AAF716292313684C00D92551 /* LTProgressViewUITests */ = {
+		AAF716292313684C00D92551 /* TMProgressViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AAF7162A2313684C00D92551 /* LTProgressViewUITests.m */,
+				AAF7162A2313684C00D92551 /* TMProgressViewUITests.m */,
 				AAF7162C2313684C00D92551 /* Info.plist */,
 			);
-			path = LTProgressViewUITests;
+			path = TMProgressViewUITests;
 			sourceTree = "<group>";
 		};
 		AAF716382313697100D92551 /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				AAF716392313698F00D92551 /* LTProgressView.h */,
-				AAF7163A2313698F00D92551 /* LTProgressView.m */,
+				AAF716392313698F00D92551 /* TMProgressView.h */,
+				AAF7163A2313698F00D92551 /* TMProgressView.m */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAF716022313684B00D92551 /* LTProgressView */ = {
+		AAF716022313684B00D92551 /* TMProgressView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF7162F2313684C00D92551 /* Build configuration list for PBXNativeTarget "LTProgressView" */;
+			buildConfigurationList = AAF7162F2313684C00D92551 /* Build configuration list for PBXNativeTarget "TMProgressView" */;
 			buildPhases = (
 				AAF715FF2313684B00D92551 /* Sources */,
 				AAF716002313684B00D92551 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = LTProgressView;
+			name = TMProgressView;
 			productName = LTProgressView;
-			productReference = AAF716032313684B00D92551 /* LTProgressView.app */;
+			productReference = AAF716032313684B00D92551 /* TMProgressView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AAF7161A2313684C00D92551 /* LTProgressViewTests */ = {
+		AAF7161A2313684C00D92551 /* TMProgressViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF716322313684C00D92551 /* Build configuration list for PBXNativeTarget "LTProgressViewTests" */;
+			buildConfigurationList = AAF716322313684C00D92551 /* Build configuration list for PBXNativeTarget "TMProgressViewTests" */;
 			buildPhases = (
 				AAF716172313684C00D92551 /* Sources */,
 				AAF716182313684C00D92551 /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				AAF7161D2313684C00D92551 /* PBXTargetDependency */,
 			);
-			name = LTProgressViewTests;
+			name = TMProgressViewTests;
 			productName = LTProgressViewTests;
-			productReference = AAF7161B2313684C00D92551 /* LTProgressViewTests.xctest */;
+			productReference = AAF7161B2313684C00D92551 /* TMProgressViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AAF716252313684C00D92551 /* LTProgressViewUITests */ = {
+		AAF716252313684C00D92551 /* TMProgressViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAF716352313684C00D92551 /* Build configuration list for PBXNativeTarget "LTProgressViewUITests" */;
+			buildConfigurationList = AAF716352313684C00D92551 /* Build configuration list for PBXNativeTarget "TMProgressViewUITests" */;
 			buildPhases = (
 				AAF716222313684C00D92551 /* Sources */,
 				AAF716232313684C00D92551 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				AAF716282313684C00D92551 /* PBXTargetDependency */,
 			);
-			name = LTProgressViewUITests;
+			name = TMProgressViewUITests;
 			productName = LTProgressViewUITests;
-			productReference = AAF716262313684C00D92551 /* LTProgressViewUITests.xctest */;
+			productReference = AAF716262313684C00D92551 /* TMProgressViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AAF715FE2313684B00D92551 /* Build configuration list for PBXProject "LTProgressView" */;
+			buildConfigurationList = AAF715FE2313684B00D92551 /* Build configuration list for PBXProject "TMProgressView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAF716022313684B00D92551 /* LTProgressView */,
-				AAF7161A2313684C00D92551 /* LTProgressViewTests */,
-				AAF716252313684C00D92551 /* LTProgressViewUITests */,
+				AAF716022313684B00D92551 /* TMProgressView */,
+				AAF7161A2313684C00D92551 /* TMProgressViewTests */,
+				AAF716252313684C00D92551 /* TMProgressViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +278,7 @@
 				AAF7160B2313684B00D92551 /* ViewController.m in Sources */,
 				AAF716162313684C00D92551 /* main.m in Sources */,
 				AAF716082313684B00D92551 /* AppDelegate.m in Sources */,
-				AAF7163B2313698F00D92551 /* LTProgressView.m in Sources */,
+				AAF7163B2313698F00D92551 /* TMProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF716202313684C00D92551 /* LTProgressViewTests.m in Sources */,
+				AAF716202313684C00D92551 /* TMProgressViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF7162B2313684C00D92551 /* LTProgressViewUITests.m in Sources */,
+				AAF7162B2313684C00D92551 /* TMProgressViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		AAF7161D2313684C00D92551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAF716022313684B00D92551 /* LTProgressView */;
+			target = AAF716022313684B00D92551 /* TMProgressView */;
 			targetProxy = AAF7161C2313684C00D92551 /* PBXContainerItemProxy */;
 		};
 		AAF716282313684C00D92551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAF716022313684B00D92551 /* LTProgressView */;
+			target = AAF716022313684B00D92551 /* TMProgressView */;
 			targetProxy = AAF716272313684C00D92551 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,7 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4634493CA;
-				INFOPLIST_FILE = LTProgressView/Info.plist;
+				INFOPLIST_FILE = TMProgressView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,7 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4634493CA;
-				INFOPLIST_FILE = LTProgressView/Info.plist;
+				INFOPLIST_FILE = TMProgressView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.LTProgressViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTProgressView.app/LTProgressView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMProgressView.app/TMProgressView";
 			};
 			name = Debug;
 		};
@@ -515,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.LTProgressViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTProgressView.app/LTProgressView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMProgressView.app/TMProgressView";
 			};
 			name = Release;
 		};
@@ -558,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAF715FE2313684B00D92551 /* Build configuration list for PBXProject "LTProgressView" */ = {
+		AAF715FE2313684B00D92551 /* Build configuration list for PBXProject "TMProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF7162D2313684C00D92551 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF7162F2313684C00D92551 /* Build configuration list for PBXNativeTarget "LTProgressView" */ = {
+		AAF7162F2313684C00D92551 /* Build configuration list for PBXNativeTarget "TMProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF716302313684C00D92551 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF716322313684C00D92551 /* Build configuration list for PBXNativeTarget "LTProgressViewTests" */ = {
+		AAF716322313684C00D92551 /* Build configuration list for PBXNativeTarget "TMProgressViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF716332313684C00D92551 /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAF716352313684C00D92551 /* Build configuration list for PBXNativeTarget "LTProgressViewUITests" */ = {
+		AAF716352313684C00D92551 /* Build configuration list for PBXNativeTarget "TMProgressViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAF716362313684C00D92551 /* Debug */,
